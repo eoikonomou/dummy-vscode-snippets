@@ -1,0 +1,46 @@
+{
+    "Customer": {
+        "prefix": "!customer",
+        "body": [
+            "{",
+            "  \"id\": \"\",",
+            "  \"type\": \"customer\",",
+            "  \"firstName\": \"\",",
+            "  \"lastName\": \"\",",
+            "  \"age\": 0,",
+            "  \"username\": \"\",",
+            "  \"email\": \"\"",
+            "}"
+        ],
+        "description": "Creates new customer skeleton"
+    },
+    "Product": {
+        "prefix": "!product",
+        "body": [
+            "{",
+            "  \"id\": \"\",",
+            "  \"type\": \"product\",",
+            "  \"tags\": [],",
+            "  \"description\": \"\",",
+            "  \"price\": 0,",
+            "  \"name\": \"\",",
+            "  \"brand\": \"\"",
+            "}"
+        ],
+        "description": "Creates new product skeleton"
+    },
+    "Cart": {
+        "prefix": "!cart",
+        "body": [
+            "{",
+            "  \"id\": \"\",",
+            "  \"type\": \"cart\",",
+            "  \"customerId\": \"\",",
+            "  \"productIds\": [],",
+            "  \"discount\": 0,",
+            "  \"promoCodes\": []",
+            "}"
+        ],
+        "description": "Creates new cart skeleton"
+    }
+}

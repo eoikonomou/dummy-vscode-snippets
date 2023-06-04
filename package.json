@@ -1,0 +1,30 @@
+{
+    "name": "dummy-vscode-snippets",
+    "displayName": "dummy-vscode-snippets",
+    "publisher": "eoikonomou",
+    "description": "An example json snippets vscode plugin",
+    "version": "1.0.0",
+    "icon": "images/icon.jpeg",
+    "author": {
+        "email": "eusoikonomou@gmail.com",
+        "name": "Efstathios Oikonomou"
+    },
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "json",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "jsonc",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
